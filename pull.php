@@ -11,3 +11,14 @@
             }
             
 ?>
+
+
+$auto = [
+          "Marca" => "Ford",
+          "Modelo" => "Fiesta"
+          "Año" => 2017
+        ];
+
+        foreach ($auto as $posicion => $valor) {
+            echo "$posicion: $valor <br>";
+        }
